@@ -1,0 +1,67 @@
+{% extends 'layouts.html'%}
+
+{% block contentA %}
+<div class="contentA">
+<div class="card text-center">
+
+  <div class="card-body">
+    <br><br><br>
+    <h2 class="card-title">Does your Keyword 'Qualify' to Rank 1st Page of Google</h2>
+    <h3 class="card-text">Find out for 'FREE'!</h3>
+    <br>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <br><br><br>
+    <h3 class="card-text">Plans starting at $5/mo only</h3>
+  </div>
+</div>
+</div>
+<script src="{{url_for('static', filename='main.js')}}"></script>
+{% endblock contentA %}
+
+{% block contentB %}
+Form Area
+{% endblock contentB %}
+
+{% block contentC %}
+<div class="card text-center">
+
+  <div class="card-body">
+    <br><br><br>
+    <h2 class="card-title">What is AllinTitle?</h2>
+    <p class="card-text">Allin Title is a Google Search Operator that lets you find competing websites for 'exactly' your target keyword</p>
+    <br>
+    <a href="#" class="btn btn-primary">Sign up for Free</a>
+    <br><br><br>
+  </div>
+</div>
+{% endblock contentC %}
+
+{% block contentD %}
+<div class="container mb.4">
+  <div class="row">
+    <div class="col-sm-8"><div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{{url_for('static',filename='theme_pics/file1.jpg')}}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{{url_for('static',filename='theme_pics/file2.jpg')}}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{{url_for('static',filename='theme_pics/file3.jpg')}}" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div></div>
+    <div class="col-sm-4">Teacher Is God</div>
+  </div>
+
+</div>
+{% endblock contentD %}
